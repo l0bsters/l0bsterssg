@@ -1,0 +1,21 @@
+{
+  "name": "l0bsterssg",
+  "version": "1.0.0",
+  "description": "node.js static site generator for l0bster posts",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "npm",
+    "buildscript",
+    "node.js",
+    "SSG",
+    "2f30",
+    "l0bster",
+    "fs",
+    "API"
+  ],
+  "author": "l0bster",
+  "license": "MIT"
+}
