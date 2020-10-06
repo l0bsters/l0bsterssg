@@ -1,9 +1,17 @@
-import fs from 'fs'
-import glob from 'glob'
-import matter from 'gray-matter'
-import marked from 'marked'
-import mkdirp from 'mkdirp'
-import path from 'path'
+// import fs from 'fs'
+// import glob from 'glob'
+// import matter from 'gray-matter'
+// import marked from 'marked'
+// import mkdirp from 'mkdirp'
+// import path from 'path'
+
+const path = require('path');
+const mkdirp = require('mkdirp');
+const marked = require('marked');
+const matter = require('gray-matter');
+const glob = require('glob');
+const fs = require('fs');
+
 
 const readFile = (filename) => {
 	const rawFile = fs.readFileSync(filename, 'utf8')
